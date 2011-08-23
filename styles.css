@@ -1,0 +1,160 @@
+/* The Puritan font is Ben Weiner's http://openfontlibrary.fontly.org/people/benweiner */
+@font-face {
+  font-family: Puritan;
+  src: url("/file/fonts/benweiner_-_Puritan_Regular.otf") format("opentype")
+  }
+
+@font-face {
+  font-family: Puritan;
+  src: url("/file/fonts/benweiner_-_Puritan_Bold.otf") format("opentype");
+  font-weight: bold;
+  }
+
+@font-face {
+  font-family: Puritan;
+  src: url("/file/fonts/benweiner_-_Puritan_Bold_Italic.otf") format("opentype");
+  font-weight: bold;
+  font-style: italic;
+  }
+
+@font-face {
+  font-family: Puritan;
+  src: url("/file/fonts/benweiner_-_Puritan_Italic.otf") format("opentype");
+  font-style: italic;
+  }
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.0em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Puritan, Helvetica, Arial, sans-serif;
+}
+
+#footer {
+  /* visibility: hidden; */
+  margin-top: 5px;
+}
+
+
+.slide {
+  border: none;
+  background-color: #B7B7B7;    
+}
+
+.slide p {
+  font-size: 20px;
+  margin-left: 1em;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-right: 1em;
+}
+
+.slide code {
+  font-size: 21px;
+  margin-right: 5em;
+}
+
+commandline {
+   font-size: 0.65em;
+}
+
+
+h1 {
+  color: #1A3955;
+  font-size: 52px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2.5em;
+  text-align: center;
+  margin-left: 0.5em;
+}
+
+h3 {
+    font-size: 2.0em;
+    text-align: center;
+    margin-left: 0.5em;
+}
+
+.slide blockquote {
+  margin-left: 50px;
+  font-style: italic;
+}
+
+.full-page-image img:first-child {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /* Set the height dynamically depending on the image's current width, keeping the aspect ratio */
+  height: auto;
+}
+
+.full-page-image img.cc {
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: middle;
+}
+
+.full-page-image p {
+  margin: 0 0 0 0;
+}
+
+.full-page-image p:not(:first-child),
+.full-page-image h1,
+.full-page-image h2 {
+  z-index: 1;
+  background-position: top left;
+}
+
+.full-page-image p:not(:first-child) {
+  position: relative;
+  opacity: .6;
+  top: -4em;
+  padding: 0.4em 0.9em 0.4em 0.9em;
+  color: dark-grey;
+  font-size: 1em;
+  float: right;
+}
+
+.full-page-image h1 {
+  position: absolute;
+  top: 1em;
+  left: 0px;
+  width: 100%;
+  padding: 0.3em 0 0.2em 0;
+  text-transform: uppercase;
+}
+
+.full-page-image h2 {
+  position: absolute;
+  top: 4em;
+  left: 0px;
+  width: 100%;
+  padding: 0.1em 0 0.3em 0;
+}
+
+.credits {
+  font-size: 0.8em;
+}
+
+.credits p:last-child {
+  float: right;
+}
+
+pre.sh_sourceCode {
+  background-color: white;
+  color: black;
+  font-style: normal;
+  font-weight: normal;
+  background-color: #1a1b1b
+  color: #fff;
+}
+
+pre {
+  font-size: 17px;
+  margin: 0 28px;
+  padding: 8px 8px;
+}
