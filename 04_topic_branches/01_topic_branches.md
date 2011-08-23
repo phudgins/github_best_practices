@@ -6,7 +6,7 @@
 
 <!SLIDE center transition=cover>
 
-# What's in a Name? #
+# Name Branches Appropriately #
 
 ![horriblyawesome](horrible_awesome.jpeg "Horribly Awesome")
 
