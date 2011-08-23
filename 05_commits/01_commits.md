@@ -18,7 +18,7 @@
 
 <!SLIDE center transition=cover>
 
-## Try not to be **too** verbose ##
+## Try not to be too verbose ##
 
 ![verbose_message](long_commit_message.png "Wait, what?")
 
