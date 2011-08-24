@@ -26,6 +26,8 @@ Git Cheat Sheets: [http://help.github.com/git-cheat-sheets/](http://help.github.
 
 Git Reference: [http://gitref.org/index.html](http://gitref.org/index.html)
 
+Pro Git: [http://progit.org/book/](http://progit.org/book/)
+
 Markdown Reference: [http://daringfireball.net/projects/markdown/syntax](http://daringfireball.net/projects/markdown/syntax)
 
 showoff: [https://github.com/schacon/showoff](https://github.com/schacon/showoff)
