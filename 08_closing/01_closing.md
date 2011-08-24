@@ -24,6 +24,8 @@ Github Help: [http://help.github.com](http://help.github.com/)
 
 Git Cheat Sheets: [http://help.github.com/git-cheat-sheets/](http://help.github.com/git-cheat-sheets/)
 
+Git Reference: [http://gitref.org/index.html](http://gitref.org/index.html)
+
 Markdown Reference: [http://daringfireball.net/projects/markdown/syntax](http://daringfireball.net/projects/markdown/syntax)
 
 showoff: [https://github.com/schacon/showoff](https://github.com/schacon/showoff)
